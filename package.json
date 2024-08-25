@@ -1,7 +1,11 @@
 {
-  "name": "",
+  "name": "@example/minimal",
   "type": "module",
   "version": "0.0.1",
+  "private": true,
+  "browerslist": [
+    "defaults"
+  ],
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
@@ -10,8 +14,10 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^4.14.2",
     "@astrojs/check": "^0.9.3",
+    "astro": "^4.14.2",
+    "postcss": "^8.4.41",
+    "postcss-preset-env": "^10.0.2",
     "typescript": "^5.5.4"
   }
 }
